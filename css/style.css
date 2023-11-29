@@ -2,6 +2,8 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* for navbar */
 @media only screen and (min-width: 576px) {
     .navbar li{
       margin: 0px 5px;;
@@ -46,6 +48,8 @@ button#meet_an_expert{
    
     
 }
+
+
 .banner-title{
    
     align-content: center;
@@ -56,7 +60,8 @@ button#meet_an_expert{
 
 }
 .banner{
-    margin-top: 40px;
+    padding: 40px;
+    
     
 }
 .torange{
@@ -65,15 +70,9 @@ button#meet_an_expert{
 .container-hp{
     text-align: center;
 }
-.solution div a{
-    text-decoration: none;
-   border: 2px solid white;
-   border-radius: 4px;
-  
-}
-.solution div a:hover{
-    background-color: whitesmoke;
-}
+
+
+
 
 .what_we{
     color: rgb(47, 47, 206);
@@ -90,7 +89,7 @@ button#meet_an_expert{
 }
 
 .aboutus{
-    padding: 60px;
+    padding: 20px;
 }
 .subscribe{
     padding: 60px;
