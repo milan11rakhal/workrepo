@@ -1,0 +1,146 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (min-width: 576px) {
+    .navbar li{
+      margin: 0px 5px;;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .navbar li{
+      margin: 0px 15px;;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .navbar li{
+      margin: 0px 25px;;
+    }
+  }
+
+
+
+#header{
+    border: 1px solid white;
+    color: black;
+
+}
+#menu{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px; 
+    color: black;  
+}
+button#meet_an_expert{
+    background-color: white;
+    color: orange;
+    border:1px solid orange;
+   
+    
+}
+.banner-title{
+   
+    align-content: center;
+}
+.banner-title h1{
+    font-size:44px ;
+    text-align: left;
+
+}
+.banner{
+    margin-top: 40px;
+    
+}
+.torange{
+    color: orange;
+}
+.container-hp{
+    text-align: center;
+}
+.solution div a{
+    text-decoration: none;
+   border: 2px solid white;
+   border-radius: 4px;
+  
+}
+.solution div a:hover{
+    background-color: whitesmoke;
+}
+
+.what_we{
+    color: rgb(47, 47, 206);
+    border: 1px solid rgb(47, 47, 206) ;
+    border-radius: 5px;
+    padding: 12px 18px; 
+    margin-top: 20px;
+}
+.growth div{
+    padding: 10px 14px;
+}
+.bwhitesmoke{
+    background-color: whitesmoke;
+}
+
+.aboutus{
+    padding: 60px;
+}
+.subscribe{
+    padding: 60px;
+}
+.subscribe div{
+    text-align: center;
+}
+
+
+input[type=text]{
+    border-radius: 40px 0 0 40px;
+    padding: 10px 20px;
+}
+.services{
+   
+}
+
+.service>div>div{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.3);
+  
+  
+  }
+  
+  
+  
+  .vbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 270px;
+  }
+  .vbox i{
+    font-size: 35px;
+  }
+.lowerfooter{
+    padding: 60px;
+}
+
+.lowerfooter div{
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+
+}
+
+footer{
+    background-color: rgb(50, 50, 194);
+    color: white;
+    padding: 30px;
+}
+
+
